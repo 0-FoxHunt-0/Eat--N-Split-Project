@@ -48,7 +48,7 @@ function App(props: AppProps): JSX.Element {
       <button
         className={`color-mode ${color}-mode`}
         onClick={() => props.setColorMode(!props.colorMode)}
-      >{`${color} Mode ${!props.colorMode ? "☼" : "☾"}`}</button>
+      >{`${color} Mode ${props.colorMode ? "☼" : "☾"}`}</button>
 
       <div className={`sidebar ${color}-mode`}>
         <PersonList
