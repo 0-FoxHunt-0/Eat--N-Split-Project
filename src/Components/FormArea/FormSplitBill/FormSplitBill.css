@@ -1,0 +1,4 @@
+.FormSplitBill {
+  grid-template-columns: 1fr 12rem;
+  padding: 3.2rem 4rem;
+}
