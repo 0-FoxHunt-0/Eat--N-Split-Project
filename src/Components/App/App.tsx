@@ -75,6 +75,7 @@ function App(props: AppProps): JSX.Element {
           onSplitBill={handleSplitBill}
           selectedPerson={selectedPerson}
           colorMode={color}
+          key={selectedPerson.id}
         ></FormSplitBill>
       )}
     </div>
